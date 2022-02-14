@@ -2,7 +2,7 @@
 
 //Exercício 1
 
-/*const nome = undefined; //Questão A)
+const nome = undefined; //Questão A)
 let idade = undefined; //Questão B)
 
 console.log(typeof nome); //Foi atribuido o tipo Strings porque é do tipo nome; Questão C)
@@ -36,7 +36,7 @@ a = 25 // Depois de trocados, teremos o seguinte resultado:
 b = 10
 
 console.log("O novo valor de a é", a) // O novo valor de a é 25
-console.log("O novo valor de b é", b) // O novo valor de b é 10 */
+console.log("O novo valor de b é", b) // O novo valor de b é 10 
 
 let a = prompt("Digite o valor de A: ");
 let b = prompt("Digite o valor de B: ");
