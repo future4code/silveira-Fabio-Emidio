@@ -95,6 +95,8 @@ console.log(resultadoDaSoma) // Sem a mudança irá aparecer os numeros pedidos 
     let restoDaDivi = num2 & num1
     console.log("O segundo numero é divisível pelo primeiro? ", (restoDaDivi === 0));
 
+    //Fim
+
 
 
 
