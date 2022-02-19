@@ -59,7 +59,8 @@ function imprimeInformacoesUsuario() {
   const idade = prompt("Digite sua idade: ")
   const email = prompt("Digite seu email: ")
 
-  console.log(`Meu nome é  ${nome}, tenho  ${idade} anos, e o meu email é  ${email}.` )
+   console.log(`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`)
+
 
 }
 
@@ -67,11 +68,24 @@ function imprimeInformacoesUsuario() {
 function imprimeTresCoresFavoritas() {
   // implemente sua lógica aqui
 
+  const cor1 = prompt('Digite 1 cor favorita: ')
+  const cor2 = prompt('Digite 2 cor favorita: ')
+  const cor3 = prompt('Digite 3 cor favorita: ') 
+  const coresConcat = [cor1, cor2, cor3]
+
+  console.log(coresConcat)
+  
+
 }
 
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
+
+  const frasemaiuscula = string.toUpperCase()
+
+  return frasemaiuscula
+
 
 }
 
@@ -79,11 +93,20 @@ function retornaStringEmMaiuscula(string) {
 function calculaIngressosEspetaculo(custo, valorIngresso) {
   // implemente sua lógica aqui
 
+ 
+ const totalDeIngressos = custo / valorIngresso
+
+ return totalDeIngressos
+
 }
 
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
   // implemente sua lógica aqui
+  
+  resultado = string1.length === string2.length 
+
+  return resultado
 
 }
 
@@ -91,17 +114,23 @@ function checaStringsMesmoTamanho(string1, string2) {
 function retornaPrimeiroElemento(array) {
   // implemente sua lógica aqui
 
+  return array [0]
+
 }
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
   // implemente sua lógica aqui
 
+  return array[array.length - 1]
+
 }
 
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
   // implemente sua lógica aqui
+
+  
 
 }
 
