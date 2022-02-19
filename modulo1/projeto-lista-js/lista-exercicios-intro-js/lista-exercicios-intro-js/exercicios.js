@@ -122,7 +122,7 @@ function retornaPrimeiroElemento(array) {
 function retornaUltimoElemento(array) {
   // implemente sua lógica aqui
 
-  return array[array.length - 1]
+  return array[array.length - 1];
 
 }
 
@@ -130,7 +130,7 @@ function retornaUltimoElemento(array) {
 function trocaPrimeiroEUltimo(array) {
   // implemente sua lógica aqui
 
-  
+ //return; 
 
 }
 
