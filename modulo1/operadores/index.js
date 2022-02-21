@@ -97,9 +97,12 @@ console.log(resultadoDaSoma) // Sem a mudança irá aparecer os numeros pedidos 
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     //Fim
 =======
 >>>>>>> ac394db438ce66a780437c909d42459b4a46b3af
+=======
+>>>>>>> 50e229b3b21cf31cfcc044ba696ef6ba5488f7d1
 =======
 >>>>>>> 50e229b3b21cf31cfcc044ba696ef6ba5488f7d1
 
