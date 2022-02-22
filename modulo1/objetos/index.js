@@ -26,29 +26,30 @@
 
 // Exercício de escrita
 
-/*1. a)
+//1. a)
  
         const pessoa = {
-            nome:"Fabio",
-            apelidos: ["Fabinho", "Binho", "Fabuloso"]
-            
-        }
+          nome: "Amanda",
+          apelidos: ["Amandinha", "Mandinha", "Mandi"]
 
-        const objeto1 = pessoa.nome
-        const objeto2 = pessoa.apelidos
-        console.log(`Eu sou ${objeto1}, mas pode me chamar de: ${objeto2}`);
+        }
+        const mudandoApelidos = (`Eu sou ${pessoa.nome}, mas pode me chamar de: ${pessoa.apelidos[0]}, ${pessoa.apelidos[1]} ou ${pessoa.apelidos[2]}`);
+
+        console.log(mudandoApelidos)
+
+        const outrosApelidos =  {...pessoa, apelidos:["Fofinha", "Dindinha", "Mandica"] }
+
+        console.log(mudandoApelido(outrosApelidos))
+
+
+
+
+        
+        
 
 //  b) 
-
-        const novoApelido ={
-            ...pessoa,
-            apelidos: [`Brother, Flash, Fabiluz`]
-                   
+ 
         
-        }
-        console.log(novoApelido)*/
-
-
 
 // 2.   
         
@@ -94,7 +95,7 @@
       console.log(`5. ${pessoa1.novaProfissao1.lenght}`)*/
 
 
- // 3.
+ /* 3.
  
     const carrinho = []
     const fruta1 ={
@@ -115,7 +116,7 @@
     }
     funcaoCarrinho(fruta1)
     funcaoCarrinho(fruta2)
-    funcaoCarrinho(fruta3)
+    funcaoCarrinho(fruta3)*/
 
 
     
