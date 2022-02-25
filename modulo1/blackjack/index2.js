@@ -1,0 +1,1 @@
+console.log("Boas vindas ao jogo Blackjack !")
